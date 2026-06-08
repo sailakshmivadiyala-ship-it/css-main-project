@@ -1,0 +1,683 @@
+body{
+    border: 5px solid green;
+  }
+  
+@media screen and (min-width:768px) and (max-width:1024px){
+    
+  .maindiv2{
+            width: 100%;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+        /* flex-direction: column; */
+        align-items: center;
+        /* height:auto; */
+    }
+
+    .left a{
+        font-size:20px;
+        padding:10px;
+    }
+
+    .right a{
+        font-size:30px;
+        padding:10px;
+    }
+  .maindiv3{
+        height: auto;
+        padding: 10px;
+    }
+
+    .left1 img{
+        width: 180px;
+        height: auto;
+    }
+
+    .right1{
+        gap: 25px;
+        font-size: 14px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .dropdown-content{
+        top: 60px;
+    }
+
+    .dropdown-content a{
+        font-size: 20px;
+    }
+     .darrow{
+        font-size: 5px;
+     }
+      .maindiv4,
+    .black-box{
+        height: 80vh;
+    }
+
+    .content{
+        margin-top: 300px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .content1{
+        font-size: 30px;
+    }
+
+    .content2{
+        font-size: 80px;
+        margin-bottom: 40px;
+    }
+
+    .content3{
+        font-size: 40px;
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+
+    .content4 button{
+        width: 150px;
+        height: 100px;
+        font-size: 10px;
+        margin-left: 0;
+    }
+    .parent {
+    
+    width: 100%;
+    margin-top: 25px;
+    margin-left: 0px;
+    }
+     .child1 {
+    width: 90%;
+    margin-left: 6px;
+    margin-top: -908px;
+}
+    
+    .text1 h1 {
+    margin-top: 10px;
+    font-size: 12px;
+    }
+    .text2 p {
+    margin-top: 6px;
+    font-size: 7px;
+    color: gray;
+}
+.text3 {
+    margin-top: 10px;
+    font-size: 10px;
+    
+}
+.anchor {
+    
+    bottom: 66px;
+    left: 5px;
+    height: 26px;
+    width: 26px;
+    border-radius: 2px;
+    font-size: 8px;
+}
+.card1, .card2, .card3, .card4 {
+    width: 100%;
+    position: relative;
+    gap: 10px;
+    margin-bottom: 30px;
+    background-color: rgb(245, 241, 241);
+}
+
+  .child2{
+        width: 90%;
+        margin-top: 0;   /* remove negative margin issues */
+    }
+
+    .boxa,
+    
+    .boxc,
+    .boxd,
+    .boxe,
+    .boxf{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 88px;
+    }
+
+    .search{
+        width: 70%;
+        font-size: 15px;
+        height: 70px;
+        margin-top: 30px;
+    }
+
+    .boxa button{
+        padding: 9px 116px;
+        font-size: 20px;
+    }
+   .boxb {
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 37px;
+    margin-left: 46px;
+    height: auto;
+}
+.info h2 {
+    font-size: 17px;
+    margin-left: 40px;
+}
+.info h3 {
+   
+    font-size: 10px;
+}
+.boxc{
+    height: 60vh;
+}
+.first h1 {
+    font-size: 20px;
+}
+.boxe{
+    margin-top: 150px;
+}
+
+    .second{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2pxpx;
+        margin-top: 9px;
+        font-size: 10px;
+    }
+    .second div {
+
+    padding: 10px;
+   
+}
+.textA H1 {
+    font-size: 19px;
+}
+.gallery {
+   
+    gap: 5px;
+    object-fit: cover;
+    margin-top: 28px;
+}
+
+   .gallery img {
+    width: 64px;
+    height: 60px;
+}
+.boxf{
+    margin-top: 27px;
+}
+.cont1 h1 {
+    font-size: 18px;
+}
+.cont2 input {
+    font-size: 8px;
+}
+.cont3 p {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    background-color: rgb(201, 86, 44);
+    width: 90%;
+    padding: 8px;
+    margin: -38px 23px;
+}
+.cont2 input {
+    font-size: 35px;
+    padding: 18px;
+}
+    .img h1{
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    .cont2 input{
+        font-size: 14px;
+    }
+
+    .cont3 p{
+        font-size:14px;
+    }
+ .maindiv15{
+    height:auto;
+  }
+
+  .topbox{
+    width:90%;
+    height:180px;
+    top:50px;
+    padding:20px;
+    flex-direction:column;
+    gap:15px;
+  }
+
+  .topbox h1{
+    font-size:32px;
+    text-align:center;
+  }
+
+  .inputbox{
+    gap:10px;
+  }
+
+  .inputbox input{
+    width:350px;
+    height:60px;
+    font-size:18px;
+    border-radius:30px;
+  }
+
+  .inputbox button{
+    width:130px;
+    height:60px;
+    font-size:16px;
+    border-radius:30px;
+  }
+
+  .footer{
+    padding:120px 20px 40px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+  }
+
+  .box{
+    width:45%;
+    margin-bottom:30px;
+  }
+
+  .box h2{
+    font-size:26px;
+  }
+
+  .box p{
+    font-size:16px;
+    line-height:24px;
+  }
+
+  .gallery{
+    grid-template-columns:repeat(3,1fr);
+    gap:5px;
+  }
+
+  .gallery img{
+    width:100%;
+    height:80px;
+  }
+
+  .maindiv16{
+    height: 149px;
+    font-size: 20px;
+    
+  }
+
+}
+/* mobile */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  
+ .maindiv2{
+            width: 100%;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+        /* flex-direction: column; */
+        align-items: center;
+        /* height:auto; */
+    }
+
+    .left a{
+        font-size:8px;
+        padding:10px;
+    }
+    .slash{
+      font-size: 20px;
+    }
+
+    .right a{
+        font-size:14px;
+        padding:10px;
+    } 
+
+    .maindiv3{
+        height: auto;
+        padding: 10px;
+    }
+
+    .left1 img{
+        width: 100px;
+        height: auto;
+    }
+
+    .right1{
+        gap: 15px;
+        font-size: 8px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .dropdown-content{
+        top: 30px;
+    }
+
+    .dropdown-content a{
+        font-size: 8px;
+    }
+     .darrow{
+        font-size: 2px;
+     }
+     .anchorarrow{
+        font-size: 10px;
+     }
+
+    .maindiv4{
+        height: 60vh;
+        position: relative;
+        overflow: hidden;
+        border-bottom-left-radius: 80px;
+        border-bottom-right-radius: 80px;
+    }
+
+    .black-box{
+         height: 100%;
+        border-bottom-left-radius: 80px;
+        border-bottom-right-radius: 80px;
+    }
+
+    .content{
+         position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .content1{
+        font-size: 16px;
+    }
+
+    .content2{
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    .content3{
+        font-size: 16px;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    .content4{
+       width: auto;
+        height: auto;
+        margin-top: 15px;
+    }
+    
+
+    .content4 button{
+       width: 80px !important;
+        height: 30px !important;
+        font-size: 10px !important;
+        padding: 0 !important;
+        margin: 0 !important;
+
+    }
+    /* .parent {
+    
+    width: 100%;
+    margin-top: 25px;
+    margin-left: 0px;
+    }
+     .child1 {
+    width: 90%;
+    margin-left: 6px;
+    margin-top: -908px;
+}
+    
+    .text1 h1 {
+    margin-top: 10px;
+    font-size: 12px;
+    }
+    .text2 p {
+    margin-top: 6px;
+    font-size: 7px;
+    color: gray;
+}
+.text3 {
+    margin-top: 10px;
+    font-size: 10px;
+    
+}
+.anchor {
+    
+    bottom: 66px;
+    left: 5px;
+    height: 26px;
+    width: 26px;
+    border-radius: 2px;
+    font-size: 8px;
+}
+.card1, .card2, .card3, .card4 {
+    width: 100%;
+    position: relative;
+    gap: 10px;
+    margin-bottom: 30px;
+    background-color: rgb(245, 241, 241);
+}
+
+  .child2{
+        width: 90%;
+        margin-top: 0;   /* remove negative margin issues */
+    
+
+
+    .parent{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top:100px ;
+    }
+
+    .child1,
+    .child2{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .child1{
+        margin-top: 0;
+    }
+    
+
+    .text1 h1{
+        font-size: 18px;
+    }
+
+    .text2 p{
+        font-size: 12px;
+    }
+
+    .text3{
+        font-size: 14px;
+    }
+
+    .anchor{
+        height: 35px;
+        width: 35px;
+        font-size: 12px;
+        left: 10px;
+        bottom: 135px;
+        border-radius: 8px;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .boxa,
+    .boxb,
+    .boxc,
+    .boxd,
+    .boxe,
+    .boxf{
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    .search{
+        width: 100%;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .boxa button{
+        width: 100%;
+        padding: 10px 130px;
+        font-size: 16px;
+    }
+
+    .boxb{
+        height: auto;
+        padding: 15px;
+        font-size: 18px;
+    }
+    .boxd,.boxe{
+        margin-top: 120px;
+    }
+    .info h2{
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    .info h3{
+        font-size: 10px;
+        margin-left: 10px;
+    }
+
+    .img h1{
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .second{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+        margin-top: 20px;
+        font-size: 10px;
+    }
+
+    .first h1{
+        font-size: 20px;
+    }
+
+    .textA h1{
+        font-size: 20px;
+    }
+
+    .gallery{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .gallery img{
+        width: 100%;
+        height: auto;
+    }
+
+    .cont1 h1{
+        font-size: 20px;
+    }
+
+    .cont2 input{
+        width: 100%;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .cont3 p{
+        width: 100%;
+        font-size: 14px;
+        padding: 10px;
+        margin: 10px auto;
+    }
+    .maindiv15{
+    height:auto;
+  }
+
+  .topbox{
+    width:90%;
+    height:auto;
+    top:50px;
+    padding:20px;
+    flex-direction:column;
+    gap:15px;
+  }
+
+  .topbox h1{
+    font-size:12px;
+    text-align:center;
+  }
+
+  .inputbox{
+    gap:10px;
+  }
+
+  .inputbox input{
+    width:183px;
+    height:43px;
+    font-size:18px;
+    border-radius:30px;
+  }
+
+  .inputbox button{
+    width:115px;
+    height:41px;
+    font-size:10px;
+    border-radius:30px;
+  }
+
+  .footer{
+    padding:120px 20px 40px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+  }
+
+  .box{
+    width:45%;
+    margin-bottom:30px;
+  }
+
+  .box h2{
+    font-size:26px;
+  }
+
+  .box p{
+    font-size:16px;
+    line-height:24px;
+  }
+
+  .gallery{
+    grid-template-columns:repeat(3,1fr);
+    gap:5px;
+  }
+
+  .gallery img{
+    width:100%;
+    height:80px;
+  }
+
+  .maindiv16{
+    height: auto;
+    font-size: 15px;
+    width: 100%;
+    
+  }
+
+}
+

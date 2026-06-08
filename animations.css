@@ -1,0 +1,306 @@
+.maindiv3{
+    animation: navbarGrow 1.5s ease-in-out;
+}
+
+@keyframes navbarGrow{
+    0%{
+        opacity: 0;
+        height: 450px;
+        transform: translateX(200px) scale(0.5);
+    }
+
+    50%{
+        opacity: 1;
+        height: 120px; /* your normal navbar height */
+        transform: translateX(0) scale(1);
+    }
+    100%{
+        opacity: 1;
+         height: 450px;
+        transform: translateX(200px) scale(0.5);
+    }
+}
+
+
+
+.content1{
+    animation:sideright 2s infinite ;
+}
+@keyframes sideright{
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+
+    }
+}
+
+
+
+
+.content2{
+    animation: slideLeft 1.2s infinite;
+}
+
+@keyframes slideLeft{
+    from{
+        opacity:0;
+        transform:translateX(-100px);
+    }
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+.content3{
+    animation: slideRight 1.5s infinite;
+}
+
+@keyframes slideRight{
+    from{
+        opacity:0;
+        transform:translateX(100px);
+    }
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+.content4 button{
+    animation:appear 5s infinite;
+}
+@keyframes appear{
+    from{
+        transform: translateX(0px) scale(0);
+
+    }
+    to{
+        transform: translateX(100px) scale(1.6);
+    }
+}
+
+/* maindiv5 */
+.card1,
+.card2,
+.card3,
+.card4{
+    transition: all 0.4s ease;
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover{
+    transform: translateY(-15px) scale(1.2);
+}
+
+.chip i{
+    transition: 0.5s;
+}
+
+.card1:hover .chip i,
+.card2:hover .chip i,
+.card3:hover .chip i,
+.card4:hover .chip i{
+    transform: rotate(360deg) scale(1.6);
+}
+.maindiv5{
+    animation: fadeUp 1.5s ease;
+}
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform: translateY(50px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+.left-1 img{
+    animation: zoom 1.5s infinite alternate;
+}
+
+@keyframes zoom{
+    from{
+        opacity:0;
+        transform:scale(0.8);
+    }
+    to{
+        /* opacity:1; */
+        transform:scale(1) ;
+    }
+}
+.right-1{
+    animation: slideRight 1.5s infinite;
+}
+
+@keyframes slideRight{
+    from{
+    
+        transform:  translateX(0px);
+    }
+    to{
+        
+        transform:  translateX(100px);
+    }
+}
+button{
+    animation: large 1.5s infinite;
+
+} 
+@keyframes large{
+    from{
+        transform: translateX(0px) scale(0);
+
+    }
+    to{
+        transform: translateX(100px) scale(0.6);
+    }
+}
+.maindiv7{
+    animation: Title 1.5s infinite;
+}
+
+@keyframes Title{
+    from{
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.line2{
+    animation: lineextend 2s infinite;
+}
+
+@keyframes lineextend{
+    from{
+        width: 0;
+    }
+    to{
+        width: 10%; /* use your actual line width */
+    }
+}
+.text1:hover,
+.text2:hover,
+.text3:hover{
+    transform: translateY(-10px) scale(1.5);
+    transition: 0.4s initial;
+}
+.leftimages2:hover .slant {
+
+  animation: slant 2s ease-in;
+  
+}
+/* @keyframes slant{
+    from{
+        opacity:1;
+        transform: translateX(0px);
+    }
+    to{
+        opacity: 0;
+        transform: translate(10px);
+    } */ */
+}
+/* whole section */
+.maindiv9{
+    display: flex;
+    align-items: center;
+}
+
+/* LEFT IMAGE */
+.cimage{
+    animation: slideLeft 1.2s ease-out;
+}
+
+/* RIGHT FAQ BOX */
+.exp{
+    animation: slideRight 1.2s ease-out;
+}
+
+@keyframes slideLeft{
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideRight{
+    from{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.latest{
+    animation: zoomText 1s infinite;
+}
+
+@keyframes zoomText{
+    from{
+        opacity: 0;
+        transform: scale(0);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.maindiv14{
+    display: flex;
+    gap: 20px;
+}
+
+/* CARD 1 */
+.pic1{
+    animation: pic1 1s infinite;
+}
+
+/* CARD 2 */
+.pic2{
+    animation: pic1 1s infinite 0.3s;
+    
+}
+
+/* CARD 3 */
+.pic3{
+    animation: pic1 1s infinite 0.6s;
+    
+}
+
+@keyframes pic1{
+    from{
+        opacity: 0;
+        transform: translateY(0px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(80px);
+    }
+}
+.copyright{
+    animation: copyright 2s ease-in-out;
+}
+    @keyframes copyright{
+        from{
+            transform: translateX(-1900px);  
+
+        }
+        to{
+            transform: translateX(1500px);
+        }
+    }

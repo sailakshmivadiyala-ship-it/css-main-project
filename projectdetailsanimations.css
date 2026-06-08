@@ -1,0 +1,96 @@
+.maindiv4 .content{
+    animation: heroText 1.2s ease-out;
+}
+
+@keyframes heroText{
+    from{
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.image img{
+    animation: zoomIn 1.5s infinite;
+}
+
+@keyframes zoomIn{
+    from{
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.texta{
+    animation: slideLeft 1.2s ease-out;
+}
+
+@keyframes slideLeft{
+    from{
+        opacity: 0;
+        transform: translateX(-80px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.textb{
+    animation: slideRight 1.2s ease-out;
+}
+
+@keyframes slideRight{
+    from{
+        opacity: 0;
+        transform: translateX(80px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.indexa{
+    animation: fadeUp 1s infinite;
+}
+
+.indexb{
+    animation: fadeUp 1s infinite ;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeUp{
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.index img,
+.image img{
+    transition: 0.4s ease-out;
+}
+
+.index img:hover,
+.image img:hover{
+    transform: scale(1.05);
+}
+.copyright{
+    animation: copyright 2s infinite;
+}
+    @keyframes copyright{
+        from{
+            transform: translateX(-1900px);  
+
+        }
+        to{
+            transform: translateX(1500px);
+        }
+    }

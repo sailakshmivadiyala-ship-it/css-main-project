@@ -1,0 +1,83 @@
+.maindiv3{
+    animation: navbarGrow 1.5s ease-in-out;
+}
+
+@keyframes navbarGrow{
+    0%{
+        opacity: 0;
+        height: 450px;
+        transform: translateX(200px) scale(0.5);
+    }
+
+    50%{
+        opacity: 1;
+        height: 120px; /* your normal navbar height */
+        transform: translateX(0) scale(1);
+    }
+    100%{
+        opacity: 1;
+         height: 450px;
+        transform: translateX(200px) scale(0.5);
+    }
+}
+
+
+
+.content1{
+    animation:sideright 2s infinite ;
+}
+@keyframes sideright{
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+
+    }
+}
+
+
+
+
+.content2{
+    animation: slideLeft 1.2s infinite;
+}
+
+@keyframes slideLeft{
+    from{
+        opacity:0;
+        transform:translateX(-100px);
+    }
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+.content3{
+    animation: slideRight 1.5s infinite;
+}
+
+@keyframes slideRight{
+    from{
+        opacity:0;
+        transform:translateX(100px);
+    }
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+.content4 button{
+    animation:appear 5s infinite;
+}
+@keyframes appear{
+    from{
+        transform: translateX(0px) scale(0);
+
+    }
+    to{
+        transform: translateX(100px) scale(1.6);
+    }
+}

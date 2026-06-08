@@ -1,0 +1,850 @@
+ body{
+    border: 5px solid green;
+  }
+  
+@media screen and (min-width:768px) and (max-width:1024px){
+    
+  .maindiv2{
+            width: 100%;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+        /* flex-direction: column; */
+        align-items: center;
+        /* height:auto; */
+    }
+
+    .left a{
+        font-size:20px;
+        padding:10px;
+    }
+
+    .right a{
+        font-size:30px;
+        padding:10px;
+    }
+  .maindiv3{
+        height: auto;
+        padding: 10px;
+        width: 97%;
+    }
+
+    .left1 img{
+        width: 180px;
+        height: auto;
+    }
+
+    .right1{
+        gap: 25px;
+        font-size: 14px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .dropdown{
+        font-size: 14px;
+    }
+
+    .dropdown-content{
+        top: 60px;
+    }
+
+    .dropdown-content a{
+        font-size: 20px;
+    }
+     .darrow{
+        font-size: 5px;
+     }
+     .anchor{
+        font-size: 8px;
+     }
+      .maindiv4,
+    .black-box{
+        height: 80vh;
+    }
+
+    .content{
+        margin-top: 300px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .content1{
+        font-size: 30px;
+    }
+
+    .content2{
+        font-size: 80px;
+        margin-bottom: 40px;
+    }
+
+    .content3{
+        font-size: 40px;
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+
+    .content4 button{
+        width: 150px;
+        height: 100px;
+        font-size: 10px;
+        margin-left: 0;
+    }
+    .parent {
+    height: auto;
+    margin-top: 200px;
+    margin-left: 29px;
+    flex-direction: column;
+
+}
+.one img {
+    width: 90%;
+    margin-left: 6px;
+}
+.child1 {
+    height: auto;
+    width: 100%;
+    /* border: 2px solid green; */
+    margin-top: 0px;
+}
+.child1 h3 {
+    font-size: 10px;
+    color: #00152b;
+    margin-left: 0px;
+}
+.child1 p {
+    font-size: 6px;
+    color: gray;
+    font-family: "Barlow Condensed", sans-serif;
+    margin-left: 4px;
+}
+.part2 {
+    width: 97%;
+}
+.outer {
+    height: 58px;
+    width: 89%;
+    margin-left: 0px;
+    background-color: #f8f9fb;
+}
+.inner {
+    height: 42px;
+    margin-left: 22px;
+    padding-top: 5px;
+}
+.part2 {
+   
+    height: 130px;
+    /* border: 2px solid; */
+}
+.parta img, .partb img {
+    height: 60px;
+    width: 100px;
+    margin-top: 20px;
+    /* display: block; */
+}
+.parta h1,.partb h1{
+    font-size: 10px;
+}
+.part3 {
+    
+    height: 98px;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    background-color: #ccc;
+}
+.text h1{
+    font-size: 10px;
+}
+.reply-section h2 {
+    font-size: 18px;
+   
+}
+.com h1{
+    font-size: 12px;
+}
+.com1 img{
+height: 76px;
+width: 76px;
+}
+.reply-section textarea {
+    width: 87%;
+    height: 100px;
+    font-size: 10px;
+    
+}
+.row input {
+    width: 50%;
+    height: 33px;
+    padding-left: 18px;
+    font-size: 11px;
+    
+}
+.website {
+    width: 94%;
+    height: 35px;
+    border: 1px solid #e5e5e5;
+    padding-left: 20px;
+    font-size: 12px;
+    margin-top: 19px;
+}
+.reply-section button {
+    margin-top: 25px;
+    width: 180px;
+    height: 48px;
+    color: white;
+    font-size: 10px;
+}
+ .child2{
+        width: 95%;
+        margin: 0 auto;
+        height: auto;
+    }
+       .boxa,
+    
+    .boxc,
+    .boxd,
+    .boxe,
+    .boxf{
+        width: 85%;
+        margin: 20px auto;
+        margin-left: 28px;
+    }
+
+    .search{
+        width: 54%;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .boxa button{
+        width: 100%;
+        padding: 10px 130px;
+        font-size: 16px;
+    }
+
+    .boxb {
+    font-size: 9px;
+    padding: 35px;
+    margin-top: 37px;
+    margin-left: 28px;
+    height: auto;
+    width: 85%;
+}
+    .boxd,.boxe{
+        margin-top: 120px;
+    }
+    .info h2{
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    .info h3{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .img h1{
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .second{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+        margin-top: 20px;
+        
+    }
+    .second div {
+    font-size: 15px;
+}
+
+    .first h1{
+        font-size: 20px;
+    }
+
+    .textA h1{
+        font-size: 20px;
+    }
+
+    .gallery{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .gallery img{
+        width: 100%;
+        height: auto;
+    }
+
+    .cont1 h1{
+        font-size: 20px;
+    }
+
+    .cont2 input{
+        width: 100%;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .cont3 p{
+        width: 100%;
+        font-size: 14px;
+        padding: 10px;
+        margin: 10px auto;
+    }
+
+
+
+.maindiv15{
+    height:auto;
+    margin-top: 50px;
+    overflow: hidden;
+  }
+
+  .topbox{
+    width:90%;
+    height:180px;
+    top:50px;
+    padding:20px;
+    flex-direction:column;
+    gap:15px;
+  }
+
+  .topbox h1{
+    font-size:32px;
+    text-align:center;
+  }
+
+  .inputbox{
+    gap:10px;
+  }
+
+  .inputbox input{
+    width:350px;
+    height:60px;
+    font-size:18px;
+    border-radius:30px;
+  }
+
+  .inputbox button{
+    width:130px;
+    height:60px;
+    font-size:16px;
+    border-radius:30px;
+  }
+
+  .footer{
+    padding:120px 0px 40px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+  }
+
+  .box{
+    width:45%;
+    margin-bottom:30px;
+  }
+
+  .box h2{
+    font-size:26px;
+  }
+
+  .box p{
+    font-size:16px;
+    line-height:24px;
+  }
+
+  .gallery{
+    grid-template-columns:repeat(3,1fr);
+    gap:5px;
+  }
+
+  .gallery img{
+    width:100%;
+    height:80px;
+  }
+
+  .maindiv16{
+    height: 149px;
+    font-size: 20px;
+    
+  }
+
+}
+/* mobilee */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  
+ .maindiv2{
+            width: 100%;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+        /* flex-direction: column; */
+        align-items: center;
+        /* height:auto; */
+    }
+
+    .left a{
+        font-size:8px;
+        padding:10px;
+    }
+    .slash{
+      font-size: 20px;
+    }
+
+    .right a{
+        font-size:14px;
+        padding:10px;
+    } 
+
+    .maindiv3{
+        height: auto;
+        padding: -2px;
+    }
+
+    .left1 img{
+        width: 100px;
+        height: auto;
+    }
+
+    .right1{
+        gap: 15px;
+        font-size: 8px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .dropdown-content{
+        top: 30px;
+    }
+
+    .dropdown-content a{
+        font-size: 8px;
+    }
+     .darrow{
+        font-size: 2px;
+     }
+     .dropdown {
+    position: relative;
+    font-size: 8px;
+}
+.anchor {
+    font-size: 8px;
+}
+
+    .maindiv4{
+        height: 60vh;
+        position: relative;
+        overflow: hidden;
+        border-bottom-left-radius: 80px;
+        border-bottom-right-radius: 80px;
+    }
+
+    .black-box{
+         height: 100%;
+        border-bottom-left-radius: 80px;
+        border-bottom-right-radius: 80px;
+    }
+
+    .content{
+         position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .content1{
+        font-size: 16px;
+    }
+
+    .content2{
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    .content3{
+        font-size: 16px;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    .content4{
+       width: auto;
+        height: auto;
+        margin-top: 15px;
+    }
+    
+
+    .content4 button{
+       width: 80px !important;
+        height: 30px !important;
+        font-size: 10px !important;
+        padding: 0 !important;
+        margin: 0 !important;
+
+    }
+    /* .parent {
+    
+    width: 100%;
+    margin-top: 25px;
+    margin-left: 0px;
+    }
+     .child1 {
+    width: 90%;
+    margin-left: 6px;
+    margin-top: -908px;
+}
+    
+    .text1 h1 {
+    margin-top: 10px;
+    font-size: 12px;
+    }
+    .text2 p {
+    margin-top: 6px;
+    font-size: 7px;
+    color: gray;
+}
+.text3 {
+    margin-top: 10px;
+    font-size: 10px;
+    
+}
+.anchor {
+    
+    bottom: 66px;
+    left: 5px;
+    height: 26px;
+    width: 26px;
+    border-radius: 2px;
+    font-size: 8px;
+}
+.card1, .card2, .card3, .card4 {
+    width: 100%;
+    position: relative;
+    gap: 10px;
+    margin-bottom: 30px;
+    background-color: rgb(245, 241, 241);
+}
+
+  .child2{
+        width: 90%;
+        margin-top: 0;   /* remove negative margin issues */
+    
+
+
+    /* .parent{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top:100px ;
+    }
+
+    .child1,
+    .child2{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .child1{
+        margin-top: 0;
+    } */
+     .parent {
+    height: auto;
+    margin-top: 45px;
+    margin-left: 29px;
+    flex-direction: column;
+
+}
+.one img {
+    width: 90%;
+    margin-left: 6px;
+}
+.child1 {
+    height: auto;
+    width: 95%;
+    border: 2px solid green;
+    margin-top: 0px;
+}
+.child1 h3 {
+    font-size: 10px;
+    color: #00152b;
+    margin-left: 0px;
+}
+.child1 p {
+    font-size: 6px;
+    color: gray;
+    font-family: "Barlow Condensed", sans-serif;
+    margin-left: 4px;
+}
+.part2 {
+    width: 97%;
+}
+.outer {
+    height: 58px;
+    width: 89%;
+    margin-left: 0px;
+    background-color: #f8f9fb;
+}
+.inner {
+    height: 42px;
+    margin-left: 22px;
+    padding-top: 5px;
+}
+.part2 {
+   
+    height: 130px;
+    /* border: 2px solid; */
+}
+.parta img, .partb img {
+    height: 48px;
+    width: 56px;
+    margin-top: 20px;
+    /* display: block; */
+}
+.parta h1,.partb h1{
+    font-size: 6px;
+}
+.part3 {
+    
+    height: 98px;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    background-color: #ccc;
+}
+.text h1{
+    font-size: 10px;
+}
+.reply-section h2 {
+    font-size: 18px;
+   
+}
+.com h1{
+    font-size: 12px;
+}
+.com1 img{
+height: 76px;
+width: 76px;
+}
+.reply-section textarea {
+    width: 87%;
+    height: 100px;
+    font-size: 10px;
+    
+}
+.row input {
+    width: 50%;
+    height: 33px;
+    padding-left: 18px;
+    font-size: 11px;
+    
+}
+.website {
+    width: 94%;
+    height: 35px;
+    border: 1px solid #e5e5e5;
+    padding-left: 20px;
+    font-size: 12px;
+    margin-top: 19px;
+}
+.reply-section button {
+    margin-top: 25px;
+    width: 180px;
+    height: 48px;
+    color: white;
+    font-size: 8px;
+}
+ .child2{
+        width: 90%;
+        margin-top: 0;
+        height: auto;   /* remove negative margin issues */
+    }
+
+    .boxa,
+    
+    .boxc,
+    .boxd,
+    .boxe,
+    .boxf{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 98px;
+    }
+
+    .search{
+        width: 70%;
+        font-size: 15px;
+        height: 70px;
+        margin-top: 30px;
+    }
+
+    .boxa button{
+        padding: 9px 116px;
+        font-size: 20px;
+    }
+   .boxb {
+    font-size: 9px;
+    padding: 20px;
+    margin-top: 37px;
+    margin-left: 46px;
+    height: auto;
+}
+.info h2 {
+    font-size: 11px;
+    margin-left: 40px;
+}
+.info h3 {
+   
+    font-size: 10px;
+}
+.boxc{
+    height: 60vh;
+}
+.first h1 {
+    font-size: 20px;
+}
+.boxe{
+    margin-top: 280px;
+}
+
+    .second{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2pxpx;
+        margin-top: 9px;
+    }
+    .second div {
+
+    padding: 10px;
+   
+}
+.textA H1 {
+    font-size: 19px;
+}
+.gallery {
+   
+    gap: 5px;
+    object-fit: cover;
+    margin-top: 28px;
+}
+
+   .gallery img {
+    width: 64px;
+    height: 60px;
+}
+.boxf{
+    margin-top: 127px;
+}
+.cont1 h1 {
+    font-size: 18px;
+}
+.cont2 input {
+    font-size: 8px;
+}
+.cont3 p {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    background-color: rgb(201, 86, 44);
+    width: 90%;
+    padding: 8px;
+    margin: -38px 23px;
+}
+.cont2 input {
+    font-size: 35px;
+    padding: 18px;
+}
+    .img h1{
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    .cont2 input{
+        font-size: 14px;
+    }
+
+    .cont3 p{
+        font-size:14px;
+    }
+    .second div {
+    font-size: 10px;}
+    .maindiv15{
+    height:auto;
+    margin-top: 50px;
+    overflow: hidden;
+  }
+
+  .topbox{
+    width:90%;
+    height:180px;
+    top:50px;
+    padding:20px;
+    flex-direction:column;
+    gap:15px;
+  }
+
+  .topbox h1{
+    font-size:32px;
+    text-align:center;
+  }
+
+  .inputbox{
+    gap:10px;
+  }
+
+  .inputbox input{
+    width:123px;
+    height:60px;
+    font-size:13px;
+    border-radius:30px;
+  }
+
+  .inputbox button{
+    width:100px;
+    height:60px;
+    font-size:12px;
+    border-radius:30px;
+  }
+
+  .footer{
+    padding:120px 0px 40px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+  }
+
+  .box{
+    width:45%;
+    margin-bottom:30px;
+  }
+
+  .box h2{
+    font-size:26px;
+  }
+
+  .box p{
+    font-size:16px;
+    line-height:24px;
+  }
+
+  .gallery{
+    grid-template-columns:repeat(3,1fr);
+    gap:5px;
+  }
+
+  .gallery img{
+    width:100%;
+    height:80px;
+  }
+
+  .maindiv16{
+    height: 149px;
+    font-size: 20px;
+    
+  }
+}
+    

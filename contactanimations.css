@@ -1,0 +1,77 @@
+.content{
+    animation: zoomIn 1.2s infinite;
+}
+
+@keyframes zoomIn{
+    from{
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.left-side{
+    animation: slideLeft 1s infinite;
+}
+
+@keyframes slideLeft{
+    from{
+        transform: translateX(-80px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+button{
+    transition: all 0.3s infinite;
+}
+
+button:hover{
+    transform: translateY(-5px) scale(1.05);
+    background-color: #e84343;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.footer{
+    animation: fadeUp 1s ease-in-out;
+}
+
+@keyframes fadeUp{
+    from{
+        transform: translateY(60px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.topbox{
+    animation: popIn 9s infinite;
+}
+
+@keyframes popIn{
+    from{
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.copyright{
+    animation: copy 3s infinite;
+
+}
+@keyframes copy{
+    from{
+        transform: translateX(-1400px) skewX(80deg);
+    }
+    to{
+        transform: translateX(1400px) skewX(0deg);
+    }
+}
