@@ -52,7 +52,7 @@
      }
       .maindiv4,
     .black-box{
-        height: 80vh;
+        height:70vh ;
     }
 
     .content{
@@ -90,6 +90,7 @@
         height: auto;
         gap: 15px;
         margin-top: 50px;
+        margin-left: 0px;
     }
 
     .card1,
@@ -106,12 +107,12 @@
 
     .heading h2,
     .heading2 h2{
-        font-size: 28px;
+        font-size: 24px;
         text-align: center;
     }
 
     .para p{
-        font-size: 20px;
+        font-size: 15px;
         line-height: 35px;
         text-align: center;
     }
@@ -160,35 +161,43 @@
     width: 100%;
 }
 .right-1 h1 {
-    font-size: 20px;
+    font-size: 10px;
    
 }
 .orange {
     
-    font-size: 20px;
+    font-size: 10px;
     
 }
 .gray {
     
-    font-size: 15px;
+    font-size: 10px;
 }
 button {
     
-    padding: 25px 100px;
+    padding: 15px 50px;
     border-radius: 60px;
     font-size: 10px;
     cursor: pointer;
 }
 .ind {
-    font-size: 60px;
+    font-size: 80px;
+    /* width: 10%; */
+}
+.line2 {
+    border-color: red;
+    width: 300px;
 }
 .maindiv8 {
     
     margin-left: 150px;
+    margin-top: -270px;
+    height: auto;
 }
 .text1, .text2, .text3 {
-    height: 328px;
-    font-size: 6px;
+    height: auto;
+    font-size: 2px;
+    gap: 20px;
 }
 .line3 {
     width: 120px;
@@ -209,7 +218,7 @@ button {
     width: 100%;
     margin: 0;
     padding: 0;
-    margin-top: 30px;
+    margin-top: -67px;
   }
    
     .cimage {  
@@ -236,6 +245,9 @@ button {
     object-fit: cover;
     min-width: 0 !important;  /* THIS FIXES OVERFLOW */
   }
+  .blackbox2,.blackbox3.blackbox4,.blackbox5{
+    display: none;
+  }
 
   .bg-image2 {
     width: 100%;
@@ -243,7 +255,7 @@ button {
   }
 
   .bg-image2 h1 {
-    font-size: 18px;
+    font-size: 15px;
     padding: 15px;
   }
 
@@ -253,20 +265,20 @@ button {
   }
 
   .para0 {
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 0;
     text-align: center;
   }
 
   .para1 {
-    font-size: 12px;
+    font-size: 10px;
     padding: 10px;
     text-align: center;
   }
 
   .para2,
   .para3 {
-    font-size: 13px;
+    font-size: 10px;
     padding: 10px;
     margin-left: 0;
     text-align: center;
@@ -286,8 +298,9 @@ button {
   .maindiv10 {
     
     width: 95%;
-    margin:100px auto;
+    /* margin:100px auto; */
     margin-left: 21px;
+    margin-top: 10pxpx;
     background-color: #f3eeee;
 }
 
@@ -330,19 +343,19 @@ button {
   }
 
   .texta{
-    font-size:24px;
+    font-size:10px;
     margin:0;
   }
 
   .textb{
-    font-size:16px;
+    font-size:10px;
     text-align:center;
     padding:0 20px;
     margin:10px 0;
   }
 
   .textc{
-    font-size:18px;
+    font-size:10px;
     margin:0;
   }
 
@@ -356,9 +369,9 @@ button {
   .ributn{
     margin:0;
     padding:15px 35px;
-    font-size:16px;
+    font-size:10px;
   }
-  .blackbox2{
+  /* .blackbox2{
   width: 100%;
   height: 100%;
   position: absolute;
@@ -369,13 +382,13 @@ button {
   background: rgba(66, 66, 76, 0.5); 
   transition: 0.4s ease;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column;
   justify-content: center;
   align-items: center;
-  opacity: 0;
-}
+  opacity: 0; */
+} */
 /* mmmmmmm */
-.image-one,
+/* .image-one,
   .image-two,
   .image-three,
   .image-four{
@@ -395,9 +408,9 @@ button {
   .rightimages2:hover .blackbox5{
     opacity:1;
     background:rgba(0,0,0,0.6);
-  }
+  } */
 
-  .leftimages2:hover .texta,
+  /* .leftimages2:hover .texta,
   .leftimages2:hover .textb,
   .leftimages2:hover .textc,
   .leftimages3:hover .texta,
@@ -411,7 +424,7 @@ button {
   .rightimages2:hover .textc{
     opacity:1;
     transform:translateY(0);
-  }
+  } */
 
   .texta{
     font-size:22px;
@@ -723,32 +736,37 @@ img {
     .maindiv5{
         flex-wrap: wrap;
         height: auto;
-        gap: 10px;
+        gap: 2px;
         margin-top: 30px;
+        margin-left: 0px;
     }
 
     .card1,
     .card2,
     .card3,
     .card4{
-        width: 48%;
-        height: 411px;
+        width: 150px;
+        height: 150px;
+        gap: 10px;
+        margin-left: 100px;
     }
 
     .chip i{
-        font-size: 30px;
+        font-size: 20px;
+        margin: -12px;
     }
 
     .heading h2,
     .heading2 h2{
-        font-size: 18px;
+        font-size: 10px;
         text-align: center;
     }
 
     .para p{
-        font-size: 10px;
+        font-size: 4px;
         line-height: 25px;
         text-align: center;
+        margin-left: 2px;
     }
 /* /* maindiv6 */
 
@@ -760,6 +778,8 @@ img {
     display: flex;
     flex-direction: column; /* IMPORTANT */
     align-items: center;
+    margin-left: 0px;
+    height: auto;
   }
 
   .left-1,
@@ -768,9 +788,12 @@ img {
     text-align: center;
     overflow: hidden;
     height: 380px;
+    margin-left: 0px;
   }
   .right-1{
-    padding: 25px 38px;
+    padding: 75px 38px;
+    margin-top: 0px;
+    height: auto;
   }
    
   .left-1 img {
@@ -792,22 +815,28 @@ img {
   }
 
   .orange {
-    font-size: 12px;
+    font-size: 9px;
   }
 
   .gray {
-    font-size: 14px;
+    font-size: 10px;
   }
 
   button {
-    padding: 8px 16px;   /* FIXED SMALL BUTTON */
-    font-size: 12px;
+    padding: 4px 12px;   /* FIXED SMALL BUTTON */
+    font-size: 8px;
     border-radius: 25px;
     width: auto;}
 
 /* 7mindiv7 */
+.maindiv7{
+  margin-left: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+  height: auto;
+}
 .ind {
-    font-size: 43px;
+    font-size: 23px;
 }
 .line2 {
   
@@ -819,7 +848,8 @@ img {
 .maindiv8 {
     width: 100%;
     margin-left: 0px;
-    margin-top: 50px;
+    margin-top: -994px;
+    height: auto;
 }
 .text1 img, .text2 img, .text3 img {
     width: 100%;
@@ -830,6 +860,8 @@ img {
     height: auto;
     font-size: 4px;
     gap: 15px;
+    margin-top: -994px;
+
 }
 .line3 {
     width: 60px;
@@ -846,9 +878,11 @@ img {
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    justify-content: none;
+    /* height: auto; */
 }
 .cimage img {
-    height: auto;
+    height: 1459px;
     width: 100%;
     min-width: 103%;
 }
@@ -1085,25 +1119,25 @@ img {
     width: 100%;
     border: 2px solid;
     padding-left: 14px;
-    margin-left: 0px;
+    margin-left: -41px;
     
 }
 .head h2 {
     
-    font-size: 6px;
+    font-size:10px;
 }
 .foottext {
-    padding: 2px 15px -18px;
+    padding: 12px 10px 65px;
     
 }
 .foottext h3{
-       font-size: 10px;
+       font-size: 20px;
 }
 .foottext P{
 font-size: 10px;
 }
 img {
-    max-width: 53px;
+    max-width: 113%;
     height: auto;
 }
 .bottom {
@@ -1252,7 +1286,7 @@ img {
 
   .maindiv16{
     height: auto;
-    font-size: 10px;
+    font-size: 14px;
     width: 100%;
     
   }

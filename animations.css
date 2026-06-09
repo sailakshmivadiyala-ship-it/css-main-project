@@ -135,21 +135,7 @@
         transform:scale(1) ;
     }
 }
-.right-1{
-    animation: slideRight 1.5s infinite;
-}
-
-@keyframes slideRight{
-    from{
-    
-        transform:  translateX(0px);
-    }
-    to{
-        
-        transform:  translateX(100px);
-    }
-}
-button{
+.button{
     animation: large 1.5s infinite;
 
 } 
@@ -188,7 +174,7 @@ button{
         width: 10%; /* use your actual line width */
     }
 }
-.text1:hover,
+/* .text1:hover,
 .text2:hover,
 .text3:hover{
     transform: translateY(-10px) scale(1.5);
@@ -198,7 +184,7 @@ button{
 
   animation: slant 2s ease-in;
   
-}
+} */
 /* @keyframes slant{
     from{
         opacity:1;
@@ -236,7 +222,7 @@ button{
     }
 }
 
-@keyframes slideRight{
+/* @keyframes slideRight{
     from{
         opacity: 0;
         transform: translateX(100px);
@@ -245,8 +231,8 @@ button{
         opacity: 1;
         transform: translateX(0);
     }
-}
-.latest{
+} */
+/* .latest{
     animation: zoomText 1s infinite;
 }
 
@@ -259,7 +245,7 @@ button{
         opacity: 1;
         transform: scale(1);
     }
-}
+} */
 .maindiv14{
     display: flex;
     gap: 20px;

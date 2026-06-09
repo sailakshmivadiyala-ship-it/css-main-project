@@ -12,11 +12,11 @@
         opacity: 1;
     }
 }
-.left-side{
-    animation: slideLeft 1s infinite;
+ .left-side{ 
+     animation: slideLeft 1s infinite; 
 }
 
-@keyframes slideLeft{
+ @keyframes slideLeft{
     from{
         transform: translateX(-80px);
         opacity: 0;
@@ -25,7 +25,7 @@
         transform: translateX(0);
         opacity: 1;
     }
-}
+} 
 button{
     transition: all 0.3s infinite;
 }
