@@ -261,7 +261,7 @@ h1 {
     height:auto;
     margin-top: 50px;
     overflow: hidden;
-    width: 112%;
+    width: 100%;
   }
 
  .topbox {
@@ -330,7 +330,7 @@ h1 {
   .maindiv16{
     height: 149px;
     font-size: 20px;
-    width: 112%;
+    width: 100%;
     overflow: hidden;
     
   }
@@ -684,7 +684,7 @@ h1 {
      .maindiv15{
     height:auto;
     margin-left: -28px;
-    width: 113%;
+    width: 100%;
     overflow: hidden;
   }
 
@@ -755,8 +755,9 @@ h1 {
   .maindiv16{
     height: auto;
     font-size: 15px;
-    width: 116%;
+    width: 100%;
     margin-left: -36px;
+    overflow: hidden;
     
   }
 }
