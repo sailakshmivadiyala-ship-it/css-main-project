@@ -102,8 +102,7 @@ body{
 /* second topbar */
 .maindiv2{
      background-color: rgb(11, 2, 52);
-    height: 180px;
-    width: 99%;
+   padding: 20px 60px;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -148,8 +147,7 @@ body{
   }
    .maindiv3{
     border: 2px solid red;
-    height: 120px;
-    width: 100%;
+   padding: 20px 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -820,9 +818,8 @@ input[type="checkbox"]{
     height:20px;
 }
 .maindiv15{
-    width: 100%;
-    height: 1200px;
-    /* border: 2px solid; */
+    padding: 50px 0px;
+   
     margin-top: 40px;
 }
 .topbox{

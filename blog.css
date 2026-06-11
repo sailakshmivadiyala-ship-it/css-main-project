@@ -3,98 +3,10 @@
     padding:0;
     box-sizing:border-box;
 }
-.maindiv1{
-    background-color: rgb(52, 52, 51);
-    height: 180px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 30PX;
-    /* margin-top: 120px; */
-}
-.section1{
-    display:flex;
-    align-items:center;
-    gap:80px;
-    /* border:2px solid red; */
-    padding:10px 20px;
 
-}
-.logo img {
-    height: 60px;
-    /* border: 2px solid goldenrod; */
-    /* margin-top: 45px; */
-    margin-left: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.search a{
-    color: white;
-    font-size: 56px;
-    font-weight: 80;
-    /* padding: 56px; */
-    /* padding: 100px 100px; */
-
-    padding-left: 140px;
-    padding-right: 140px;
-
-    /* border: 2px solid rgb(243, 240, 236,0.4); */
-    background-color: black;
-    text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.section2{
-    display: flex;
-    /* opacity: 0.2; */
-    
-}
-.box1 a ,.box2 a,.box3 a,.box4 a,.box5 a,.box6 a{
-         height: 170px;
-         width: 170px;
-         /* border: 2px solid rgb(255, 255, 255, 0.6); */
-         border-top: none;
-         border-bottom: none;
-         display:flex;
-        justify-content:center;
-        align-items:center;
-        color:gray; 
-         opacity: 0.2;
-        text-decoration: none;
-    
-
-}
-.box1 i,.box2 i,.box3 i,.box4 i,.box5 i,.box6 i{
-    font-size: 60px;
-}
-
-.box1:hover i,.box2:hover i,.box3:hover i,.box4:hover i,.box5:hover i,.box6:hover i{
-    
-     color:white;
-    opacity:0.9 ;
-    
-}
-.box1:hover,.box2:hover ,.box3:hover ,
-.box4:hover ,.box5:hover ,.box6:hover 
-{
-    background-color: black;
-}
-.box5:hover{
-   background-color: rgb(141, 194, 56);
-   color: white;
-} 
-.box4 i{
-    color:white;
-    font-size:60px;
-}
-
-.box4:hover i{
-    color:red;
-}
-/* second topbar */
 .maindiv2{
      background-color: rgb(11, 2, 52);
-    height: 180px;
-    width: 99%;
+  padding: 20px 60px;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -140,8 +52,7 @@
 
   .maindiv3{
     /* border: 2px solid red; */
-    height: 260px;
-    width: 100%;
+    padding: 20px 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -317,8 +228,8 @@
 }
 /* maindiv5 */
 .maindiv15{
-    width: 100%;
-    height: 1200px;
+    padding: 50px 0px;
+   
     /* border: 2px solid; */
     margin-top: 140px;
 }

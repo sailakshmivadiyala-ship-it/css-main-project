@@ -5,7 +5,7 @@ body{
 @media screen and (min-width:768px) and (max-width:1024px){
     
   .maindiv2{
-            width: 100%;
+            width: 80%;
             height: 50px;
             display: flex;
             justify-content: space-between;
@@ -271,7 +271,7 @@ body{
 
     .right1{
         gap: 25px;
-        font-size: 7px;
+        font-size: 4px;
         flex-wrap: wrap;
         justify-content: center;
     }

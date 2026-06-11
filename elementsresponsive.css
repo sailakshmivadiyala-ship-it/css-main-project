@@ -5,8 +5,7 @@ body{
 @media screen and (min-width:768px) and (max-width:1024px){
     
   .maindiv2{
-            width: 100%;
-            height: 50px;
+           padding: 5px;
             display: flex;
             justify-content: space-between;
         /* flex-direction: column; */
@@ -341,8 +340,7 @@ h1 {
 @media screen and (min-width: 320px) and (max-width: 480px) {
   
  .maindiv2{
-            width: 100%;
-            height: 50px;
+            padding: 10px;
             display: flex;
             justify-content: space-between;
         /* flex-direction: column; */
@@ -364,8 +362,7 @@ h1 {
     } 
 
     .maindiv3{
-        height: auto;
-        padding: -2px;
+      padding: 10px;
     }
 
     .left1 img{

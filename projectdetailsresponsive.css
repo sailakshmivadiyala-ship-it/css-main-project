@@ -5,7 +5,7 @@ body{
 @media screen and (min-width:768px) and (max-width:1024px){
     
   .maindiv2{
-            width: 100%;
+            width: 84%;
             height: 50px;
             display: flex;
             justify-content: space-between;
@@ -241,7 +241,7 @@ body{
 @media screen and (min-width: 320px) and (max-width: 480px) {
   
  .maindiv2{
-            width: 100%;
+            width: 66%;
             height: 50px;
             display: flex;
             justify-content: space-between;
@@ -263,9 +263,10 @@ body{
         padding:10px;
     } 
 
+   
     .maindiv3{
         height: auto;
-        padding: -2px;
+        padding: 10px;
     }
 
     .left1 img{
@@ -290,14 +291,14 @@ body{
      .darrow{
         font-size: 2px;
      }
-     .dropdown {
-    position: relative;
-    font-size: 8px;
-}
-.anchor {
-    font-size: 8px;
-}
+     .anchorarrow{
+        font-size: 10px;
+     }
 
+    
+
+    .
+    
     .maindiv4{
         height: 60vh;
         position: relative;

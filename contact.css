@@ -97,8 +97,7 @@
 /* second topbar */
 .maindiv2{
      background-color: rgb(11, 2, 52);
-    height: 180px;
-    width: 99%;
+    padding: 20px 60px;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -144,8 +143,7 @@
 
   .maindiv3{
     border: 2px solid red;
-    height: 120px;
-    width: 100%;
+    padding: 20px 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -415,23 +413,25 @@ button{
 }
 /* maindiv15 */
 .maindiv15{
-    width: 100%;
-    height: 1200px;
-    border: 2px solid;
+    /* width: 100%;
+    height: 700px; */
+    /* border: 2px solid; */
     margin-top: 140px;
+    padding: 50px 0px;
 }
 .topbox{
-      width: 70%;
-      height: 280px;
-      background: orangered;
-      margin: auto;
-      margin-top: 20px;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      position: relative;
-      top:100px ;
-    }
+    width: 70%;
+    min-height: 280px;
+    background: orangered;
+    margin: 0 auto;   /* important */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    position: relative; /* or just remove position */
+    top: 100px;
+}
 
     .topbox h1{
       color: white;
